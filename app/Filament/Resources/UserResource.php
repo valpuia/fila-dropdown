@@ -69,7 +69,7 @@ class UserResource extends Resource
                         return $query;
                     })
                     ->columns(3),
-            ], layout: FiltersLayout::AboveContent)
+            ], layout: FiltersLayout::BelowContent)
             ->filtersFormColumns(1)
             ->defaultSort('created_at', 'desc')
             ->actions([
